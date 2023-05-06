@@ -1,0 +1,39 @@
+.btn{
+    color: white;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Roboto monospace;
+    margin: 3px 8px ;
+}
+.btn:hover{
+    cursor: pointer;
+    filter: brightness(0.89);
+    border: 2px solid black;
+}
+.todoItems{
+    width: 60vw;
+    margin: auto;
+    /* background-color: antiquewhite; */
+
+}
+.todoItem{
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 10px;
+    /* background-color: aqua; */
+    box-shadow: 1px 1px 3px black;
+    border-radius: 15px 0 15px 0px;
+    padding-left: 20px;
+    align-items: center;
+    
+}
+.reset{
+    background-color: crimson;
+}
+.update{
+    background-color: skyblue;
+}
