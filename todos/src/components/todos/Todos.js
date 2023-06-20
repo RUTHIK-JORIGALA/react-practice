@@ -26,7 +26,7 @@ function Todos() {
         {
           todos.map((item)=><li className='todoItem' key={item.id}>{item.task}
           <div>
-          <span><button className='btn update'>UPDATE</button></span>
+          {/* <span><button className='btn update'>UPDATE</button></span> */}
           <span><button className='btn reset' onClick={()=>dispatch({type:"DELETE",payload:item.id})}>DELETE</button></span>
           </div>
           </li>)
